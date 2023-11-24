@@ -9,23 +9,28 @@ function App() {
     <div className="App">
       <Parallax strength={300} bgImage={Woman}>
         <div className="content">
-          <div className="text-content">Normal Parallax</div>
+          <div className="text-content">scroll Down</div>
         </div>
       </Parallax>
 
-      <Parallax strength={300} blur={{ min: -5, max: 15 }} bgImage={City}>
+      <Parallax strength={300} bgImage={City}>
         <div className="content">
-          <div className="text-content">Blur</div>
+          
         </div>
       </Parallax>
 
-      <Parallax strength={-600} bgImage={Fly}>
+      <Parallax strength={300} bgImage={Fly}>
         <div className="content">
-          <div className="text-content">Reverse Parallax</div>
+          
+        </div>
+      </Parallax>
+      <Parallax strength={300} bgImage={Woman}>
+        <div className="content">
+        <div className="text-content">scroll Up</div>
         </div>
       </Parallax>
 
-      <div className="content"></div>
+      
     </div>
   );
 }
